@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: black;
+}
+
+.label {
+  text-anchor: middle;
+  fill: white;
+  font-size: 1.1vh;
+}
+
+.main__section {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+  // display: flex;
+  // justify-content: center;
+  background-color: pink;
+  // align-items: center;
+  h1 {
+  }
+}
