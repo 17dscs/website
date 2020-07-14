@@ -11,18 +11,49 @@ body,
   font-size: 1.1vh;
 }
 
-.main__section {
+section {
   height: 200px;
   width: 200px;
+  margin-left: -100px;
+  margin-top: -100px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  // display: flex;
-  // justify-content: center;
   background-color: pink;
-  // align-items: center;
-  h1 {
+  &.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &.qe {
+    background-color: red;
+  }
+}
+
+.quality-education {
+  height: 600px;
+  width: 600px;
+  margin-left: -300px;
+  margin-top: -300px;
+  background-color: silver;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr 3fr;
+  .chart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    .past {
+      background-color: skyblue;
+    }
+    .present {
+      background-color: slateblue;
+    }
+    .future {
+      background-color: forestgreen;
+    }
+  }
+  .user-action {
+    background-color: goldenrod;
   }
 }
