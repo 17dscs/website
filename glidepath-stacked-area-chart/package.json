@@ -1,0 +1,14 @@
+{
+  "name": "@jamierushad/glidepath-stacked-area-chart",
+  "main": "e05e114f9d618f14@480.js",
+  "version": "480.0.0",
+  "homepage": "https://observablehq.com/@jamierushad/glidepath-stacked-area-chart",
+  "author": {
+    "name": "Jamie Rushad Gros",
+    "url": "https://observablehq.com/@jamierushad"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@observablehq/a-taste-of-observable",
+  "main": "4e36c4335cde0fd3@826.js",
+  "version": "826.0.0",
+  "homepage": "https://observablehq.com/@observablehq/a-taste-of-observable",
+  "author": {
+    "name": "Observable",
+    "url": "https://observablehq.com/@observablehq"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
