@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import Dscomponent from "./dscomponent";
 
-export const QualityEducation = () => {
+export const QualityEducation = (dsc) => {
   useEffect(() => {
-    new Dscomponent("dscomponent");
+    dsc = new Dscomponent("dscomponent");
   }, []);
   return (
     <>
