@@ -4,6 +4,8 @@ import { labels, colors } from "./arrays";
 import { QualityEducation } from "./QualityEducation";
 
 const App = () => {
+  let dsc;
+
   let width = window.innerWidth;
   let height = window.innerHeight;
   let minViewportSize = Math.min(width, height);
@@ -17,6 +19,9 @@ const App = () => {
   const [rate, setRate] = useState(defaultRate);
   useEffect(() => {
     isClicked ? setRate(0.95) : setRate(defaultRate);
+    if (isClicked) {
+      if (dsc) dsc.clearIntervalAll();
+    }
   }, [isClicked]);
   return (
     <>
@@ -43,7 +48,7 @@ const App = () => {
         sectionNumber === 3 ? (
           isClicked ? (
             // detail
-            <QualityEducation />
+            <QualityEducation dsc={dsc} />
           ) : (
             // preview
             <section className="preview qe">
