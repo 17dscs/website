@@ -23,7 +23,7 @@ export const QualityEducation = () => {
             <div>Total Learner - affected Learner</div>
           </div>
         </div>
-        <div id="dscomponent" style={{ width: "400px", height: "300px", border: "3px solid black" }}></div>
+        <div id="dscomponent" style={{ width: "400px", height: "300px", border: "3px solid black", marginTop: "4px" }}></div>
       </section>
     </>
   );
