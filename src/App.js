@@ -47,7 +47,12 @@ const App = () => {
           ) : (
             // preview
             <section className="preview qe">
-              <h1>Preview of QE</h1>
+              <img
+                style={{ borderRadius: "10px" }}
+                width="100%"
+                height="100%"
+                src="https://github.com/17dscs/documentation/blob/master/images/dsc4-screenshot.png?raw=true"
+              />
             </section>
           )
         ) : (
