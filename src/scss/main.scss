@@ -29,9 +29,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
   }
   &.qe {
-    background-color: red;
+    background-color: white;
   }
 }
 
@@ -46,13 +47,15 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
   & > p {
-    font-size: 12px;
-    margin: 4px 8px 4px 8px;
+    font-size: 10px;
+    margin: 4px 8px 6px 8px;
   }
   .color-description {
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
+    color: #666;
   }
   .color-square-red {
     width: 8px;

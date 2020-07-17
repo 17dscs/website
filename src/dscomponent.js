@@ -1,4 +1,4 @@
-let canvas;
+let canvas = null;
 
 function randomColor(bigBalls) {
   // return rc;
