@@ -8,13 +8,13 @@ We make 17 SDGs(Sustainable Development Goals) 's DSCs(Data Simulation Component
 
 # Preview
 
-## main page
+## 1. Main page
 
 ![](https://github.com/17dscs/documentation/blob/master/images/website.png?raw=true)
 
-## component example
+## 2. Component
 
-![](https://github.com/17dscs/documentation/blob/master/images/dsc4-screenshot.png?raw=true)
+![](https://github.com/17dscs/documentation/blob/master/images/comp-screenshot.png?raw=true)
 
 # PreDevelopment
 
